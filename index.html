@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Thousand Sunny</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220318225726">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/2d0f1fdbe9.js?_v=20220318225726" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo" /></picture>
+				</div>
+				<div class="header__menu">
+					<nav class="header__menu-body menu">
+						<ul class="header__menu-list">
+							<li class="header__menu-list-item">
+								<a href="#" class="header__menu-list-link">Home</a>
+							</li>
+							<li class="header__menu-list-item">
+								<a href="#" class="header__menu-list-link">Destinations</a>
+							</li>
+							<li class="header__menu-list-item">
+								<a href="#" class="header__menu-list-link">About</a>
+							</li>
+							<li class="header__menu-list-item">
+								<a href="#" class="header__menu-list-link">Partner</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__menu-auth">
+						<a class="header__auth-login" href="#">Login</a>
+						<a class="header__auth-register" href="#">Register</a>
+					</div>
+				</div>
+				<button type="button" class="header__icon-menu icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section id="section-explore" class="explore">
+				<div class="explore__container">
+					<div class="explore__content">
+						<h1 class="explore__title">
+							Explore and Travel
+						</h1>
+						<div class="explore__content-form-title">Holiday Finder</div>
+						<form action="POST" class="finder-form">
+							<div class="finder-form__row">
+								<div class="finder-form__field">
+									<label class="finder-form__label" for="finder-form__input-grade"></label>
+									<div class="finder-form__input-wrapper">
+										<div class="finder-form__input-expand">
+											<i class="fa-solid fa-angle-down"></i>
+										</div>
+										<input id="finder-form__input-location" class="finder-form__input" type="text" placeholder="Location" disabled="true">
+									</div>
+								</div>
+								<div class="finder-form__field">
+									<label class="finder-form__label" for="finder-form__input-grade"></label>
+									<div class="finder-form__input-wrapper">
+										<div class="finder-form__input-expand">
+											<i class="fa-solid fa-angle-down"></i>
+										</div>
+										<input id="finder-form__input-activity" class="finder-form__input" type="text" placeholder="Activity" disabled="true">
+									</div>
+								</div>
+							</div>
+							<div class="finder-form__row">
+								<div class="finder-form__field">
+									<label class="finder-form__label" for="finder-form__input-grade"></label>
+									<div class="finder-form__input-wrapper">
+										<div class="finder-form__input-expand">
+											<i class="fa-solid fa-angle-down"></i>
+										</div>
+										<input id="finder-form__input-grade" class="finder-form__input" type="text" placeholder="Grade" disabled="true">
+									</div>
+								</div>
+								<div class="finder-form__field">
+									<label class="finder-form__label" for="finder-form__input-date"></label>
+									<div class="finder-form__input-wrapper">
+										<div class="finder-form__input-expand">
+											<i class="fa-solid fa-angle-down"></i>
+										</div>
+										<input id="finder-form__input-date" class="finder-form__input" type="text" placeholder="Date" disabled="true">
+									</div>
+								</div>
+							</div>
+							<button class="finder-form__btn" type="submit">Explore</button>
+						</form>
+					</div>
+					<div class="explore__img">
+						<picture><source srcset="img/explore.webp" type="image/webp"><img src="img/explore.png" alt="Explore the world"></picture>
+					</div>
+				</div>
+			</section>
+			<section id="section-learn" class="learn">
+				<div class="learn__container">
+					<div class="learn__img">
+						<picture><source srcset="img/02.webp" type="image/webp"><img src="img/02.png" alt="Balloons" /></picture>
+					</div>
+					<div class="learn__content">
+						<div class="learn__title common-title">
+							A new way to explore the world
+						</div>
+						<div class="learn__text common-text">
+							For decades travellers have reached for Lonely Planet books when looking
+							to plan and execute their perfect trip, but now, they can also let
+							Lonely Planet Experiences lead the way
+						</div>
+						<a href="#" class="learn__btn">Learn more</a>
+					</div>
+				</div>
+			</section>
+			<section id="section-destinations" class="destinations">
+				<div class="destinations__container">
+					<div class="destinations__header">
+						<div class="destinations__title common-title">Featured destinations</div>
+						<div class="destinations__expand">
+							<a class="destinations__link" href="#">View all</a>
+							<i class="fa-solid fa-angle-right"></i>
+						</div>
+					</div>
+					<div class="destinations__gallery">
+						<a href="#" class="destinations__gallery-link">
+							<div class="destinations__gallery-item">
+								<picture><source srcset="img/destinations/indonesia.webp" type="image/webp"><img src="img/destinations/indonesia.jpg" alt="Indonesia" /></picture>
+								<figure>
+									<div class="destinations__gallery-figure-title">Raja Ampat</div>
+									<div class="destinations__gallery-figure-text">Indonesia</div>
+								</figure>
+							</div>
+						</a>
+						<a href="#" class="destinations__gallery-link">
+							<div class="destinations__gallery-item">
+								<picture><source srcset="img/destinations/fanjigshan.webp" type="image/webp"><img src="img/destinations/fanjigshan.jpg" alt="Fanjingshan" /></picture>
+								<figure>
+									<div class="destinations__gallery-figure-title">Fanjingshan</div>
+									<div class="destinations__gallery-figure-text">China</div>
+								</figure>
+							</div>
+						</a>
+						<a href="#" class="destinations__gallery-link">
+							<div class="destinations__gallery-item">
+								<picture><source srcset="img/destinations/vevey.webp" type="image/webp"><img src="img/destinations/vevey.jpg" alt="Vevey" /></picture>
+								<figure>
+									<div class="destinations__gallery-figure-title">Vevey</div>
+									<div class="destinations__gallery-figure-text">Switzerland</div>
+								</figure>
+							</div>
+						</a>
+						<a href="#" class="destinations__gallery-link">
+							<div class="destinations__gallery-item">
+								<picture><source srcset="img/destinations/skadar.webp" type="image/webp"><img src="img/destinations/skadar.jpg" alt="Skadar" /></picture>
+								<figure>
+									<div class="destinations__gallery-figure-title">Skadar</div>
+									<div class="destinations__gallery-figure-text">Montenegro</div>
+								</figure>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-guides" class="guides">
+				<div class="guides__container">
+					<div class="guides__content">
+						<div class="guides__title common-title">Guides by Thousand Sunny</div>
+						<div class="guides__text common-text">
+							Packed with tips and advice from our on-the-ground experts, our city
+							guides app (iOS and Android) is the ultimate resource before and during
+							a trip.
+						</div>
+						<a href="#" class="guides__btn">Download</a>
+					</div>
+					<div class="guides__img">
+						<picture><source srcset="img/03.webp" type="image/webp"><img src="img/03.png" alt="Our mobile app" /></picture>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-testimonials" class="testimonials">
+				<div class="testimonials__container">
+					<div class="testimonials__title common-title">Testimonials</div>
+					<div class="testimonials__swiper swiper">
+						<div class="testimonials__swiper-wrapper swiper-wrapper">
+							<div class="testimonials__swiper-slide swiper-slide">
+								<div class="review">
+									<div class="review__content">
+										<div class="review__rating">
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+										</div>
+										<div class="review__quote">
+											“Quisque in lacus a urna fermentum euismod. Integer mi nibh,
+											dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit
+											sit amet turpis nec”
+										</div>
+										<div class="review__user-info">
+											<div class="review__user-name">Edward Newgate</div>
+											<div class="review__user-job">Founder Circle</div>
+										</div>
+									</div>
+									<div class="review__img">
+										<picture><source srcset="img/user-reviews/edward.webp" type="image/webp"><img src="img/user-reviews/edward.jpg" alt="Edward Newgate" /></picture>
+										<div class="testimonials__swiper-controls">
+											<div class="testimonials__swiper-btn-prev">
+												<i class="fa-solid fa-angle-left"></i>
+											</div>
+											<div class="testimonials__swiper-btn-next">
+												<i class="fa-solid fa-angle-right"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonials__swiper-slide swiper-slide">
+								<div class="review">
+									<div class="review__content">
+										<div class="review__rating">
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+										</div>
+										<div class="review__quote">
+											“Quisque in lacus a urna fermentum euismod. Integer mi nibh,
+											dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit
+											sit amet turpis nec”
+										</div>
+										<div class="review__user-info">
+											<div class="review__user-name">Edward Newgate</div>
+											<div class="review__user-job">Founder Circle</div>
+										</div>
+									</div>
+									<div class="review__img">
+										<picture><source srcset="img/user-reviews/edward.webp" type="image/webp"><img src="img/user-reviews/edward.jpg" alt="Edward Newgate" /></picture>
+										<div class="testimonials__swiper-controls">
+											<div class="testimonials__swiper-btn-prev">
+												<i class="fa-solid fa-angle-left"></i>
+											</div>
+											<div class="testimonials__swiper-btn-next">
+												<i class="fa-solid fa-angle-right"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonials__swiper-slide swiper-slide">
+								<div class="review">
+									<div class="review__content">
+										<div class="review__rating">
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+											<div class="review__rating-star">
+												<i class="fa-solid fa-star"></i>
+											</div>
+										</div>
+										<div class="review__quote">
+											“Quisque in lacus a urna fermentum euismod. Integer mi nibh,
+											dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit
+											sit amet turpis nec”
+										</div>
+										<div class="review__user-info">
+											<div class="review__user-name">Edward Newgate</div>
+											<div class="review__user-job">Founder Circle</div>
+										</div>
+									</div>
+									<div class="review__img">
+										<picture><source srcset="img/user-reviews/edward.webp" type="image/webp"><img src="img/user-reviews/edward.jpg" alt="Edward Newgate" /></picture>
+										<div class="testimonials__swiper-controls">
+											<div class="testimonials__swiper-btn-prev">
+												<i class="fa-solid fa-angle-left"></i>
+											</div>
+											<div class="testimonials__swiper-btn-next">
+												<i class="fa-solid fa-angle-right"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="section-stories" class="stories">
+				<div class="stories__container">
+					<div class="stories__header">
+						<div class="stories__title common-title">Trending stories</div>
+						<div class="stories__expand">
+							<a class="stories__link" href="#">View all</a>
+							<i class="fa-solid fa-angle-right"></i>
+						</div>
+					</div>
+					<div class="stories__content">
+						<article class="story">
+							<div class="story__img img-ibg">
+								<picture><source srcset="img/stories/01.webp" type="image/webp"><img src="img/stories/01.jpg" alt="Blog" /></picture>
+							</div>
+							<div class="story__title">
+								The many benefits of taking a healing holiday
+							</div>
+							<div class="story__description">
+								‘Helaing holidays’ are on the rise tohelp maximise your health and
+								happines...
+							</div>
+							<a href="#" class="story__link">Read more</a>
+						</article>
+						<article class="story">
+							<div class="story__img img-ibg">
+								<picture><source srcset="img/stories/02.webp" type="image/webp"><img src="img/stories/02.jpg" alt="Blog" /></picture>
+							</div>
+							<div class="story__title">
+								The best Kyoto restaurant to try Japanese food
+							</div>
+							<div class="story__description">
+								From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+								to visit...
+							</div>
+							<a href="#" class="story__link">Read more</a>
+						</article>
+						<article class="story">
+							<div class="story__img img-ibg">
+								<picture><source srcset="img/stories/03.webp" type="image/webp"><img src="img/stories/03.jpg" alt="Blog" /></picture>
+							</div>
+							<div class="story__title">
+								Skip Chichen Itza and head to this remote Yucatan
+							</div>
+							<div class="story__description">
+								It’s remote and challenging to get, but braving the jungle and
+								exploring these ruins without the...
+							</div>
+							<a href="#" class="story__link">Read more</a>
+						</article>
+						<article class="story">
+							<div class="story__img img-ibg">
+								<picture><source srcset="img/stories/04.webp" type="image/webp"><img src="img/stories/04.jpg" alt="Blog" /></picture>
+							</div>
+							<div class="story__title">
+								Surf’s up at these beginner spots around the world
+							</div>
+							<div class="story__description">
+								If learning to surf has in on your to- do list for a while, the good
+								news is: it’s never too late...
+							</div>
+							<a href="#" class="story__link">Read more</a>
+						</article>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__content-main">
+						<div class="footer__logo logo">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo" /></picture>
+						</div>
+						<div class="footer__description">
+							Plan and book your perfect trip with expert advice, travel tips
+							destination information from us
+						</div>
+						<div class="footer__copyright">
+							&copy;2020 Thousand Sunny. All rights reserved
+						</div>
+					</div>
+					<div class="footer__content-nav">
+						<nav class="footer__nav">
+							<div class="footer__nav-title">Destinations</div>
+							<ul class="footer__nav-list">
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Africa</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Antarctica</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Asia</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Europe</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">America</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="footer__nav">
+							<div class="footer__nav-title">Shop</div>
+							<ul class="footer__nav-list">
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Destination Guides</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Pictorial & Gifts</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Special Offers</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Delivery Times</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">FAQs</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="footer__nav">
+							<div class="footer__nav-title">Interests</div>
+							<ul class="footer__nav-list">
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Adventure Travel</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Art And Culture</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Wildlife And Nature</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Family Holidays</a>
+								</li>
+								<li class="footer__nav-list-item">
+									<a href="#" class="footer__nav-link">Food And Drink</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__social">
+					<ul class="footer__social-list">
+						<li class="footer__social-list-item">
+							<a href="#" class="footer__social-link"><i class="fa-brands fa-twitter"></i></a>
+						</li>
+						<li class="footer__social-list-item">
+							<a href="#" class="footer__social-link"><i class="fa-brands fa-facebook-f"></i></a>
+						</li>
+						<li class="footer__social-list-item">
+							<a href="#" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a>
+						</li>
+						<li class="footer__social-list-item">
+							<a href="#" class="footer__social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+						</li>
+						<li class="footer__social-list-item">
+							<a href="#" class="footer__social-link"><i class="fa-brands fa-youtube"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+	<script src="js/app.min.js?_v=20220318225726"></script>
+</body>
+
+</html>
