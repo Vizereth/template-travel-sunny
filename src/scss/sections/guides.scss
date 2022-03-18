@@ -1,0 +1,66 @@
+.guides {
+  margin: 0 0 250px 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    @include maxTablet {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+  }
+  &__content {
+    @include noMarginBottom;
+    flex: 0 1 40%;
+
+    @include maxTablet {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;align-items: center;
+    }
+  }
+  &__title {
+    margin: 0 0 20px 0;
+
+    @include maxTablet {
+        font-size: rem(45);
+        text-align: center;
+    }
+  }
+  &__text {
+    margin: 0 0 33px 0;
+
+    @include maxTablet {
+        max-width: 60%;
+        text-align: center;
+    }
+  }
+  &__btn {
+    background-color: $orange-1;
+    border-radius: 8px;
+
+    width: 164px;
+    max-width: 250px;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: $white;
+    font-size: rem(16);
+    font-weight: 600;
+
+    &:hover {
+      @include AnimationButton;
+    }
+  }
+  &__img {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

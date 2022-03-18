@@ -1,0 +1,81 @@
+.learn {
+  margin: 0 0 260px 0;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    @include maxTablet {
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+  }
+
+  &__img {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &__content {
+    @include noMarginBottom;
+    flex: 0 1 40%;
+    display: flex;
+    flex-direction: column;
+
+    @include maxTablet {
+      align-items: center;
+      flex: 0 0 auto;
+    }
+  }
+
+  &__title {
+    margin: 0 0 20px;
+
+    @include maxTablet {
+      font-size: rem(45);
+      text-align: center;
+    }
+    
+  }
+
+  &__text {
+    margin: 0 0 33px 0;
+
+    @include maxTablet {
+      width: 50%;
+      text-align: center;
+    }
+
+    
+    @include maxMobileSmall {
+     width: 90%;   
+    }
+  }
+
+  &__btn {
+    background-color: $orange-1;
+
+    width: 164px;
+    max-width: 250px;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+
+    color: $white;
+    font-weight: 600;
+    overflow: hidden;
+
+    &:hover {
+      @include AnimationButton;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.explore {
+  margin: 0 0 270px 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    @include maxTablet {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 50px;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 50%;
+
+    @include maxMobileSmall {
+      align-items: center;
+    }
+  }
+
+  &__title {
+    color: $black-1;
+    font-family: "Playfair Display";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 125%;
+
+    margin: 0 0 74px 0;
+
+    @include maxMobileSmall {
+      margin: 0 0 35px 0;
+      text-align: center;
+    }
+  }
+
+  &__content-form-title {
+    position: relative;
+
+    color: $black-1;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: calc(27 / 22 * 100%);
+
+    margin: 0 0 70px 0;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 48px;
+      left: 0;
+
+      background-color: $black-1;
+      width: 32px;
+      height: 2px;
+      border-radius: 4px;
+
+      @include maxMobileSmall {
+        display: none;
+      }
+    }
+
+    @include maxMobileSmall {
+      margin: 0 0 35px 0;
+    }
+  }
+
+  &__img {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
