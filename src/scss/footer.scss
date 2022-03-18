@@ -13,8 +13,9 @@
     padding: 80px 0;
 
     @include maxMobile {
-        justify-content:center;align-items: center;
-        padding: 40px 0;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
     }
   }
   &__content-main {
@@ -23,7 +24,7 @@
     font-weight: 300;
 
     @include maxMobile {
-        flex: 0 1 75%;
+      flex: 0 1 75%;
     }
   }
   &__logo {
