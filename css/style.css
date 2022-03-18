@@ -145,6 +145,23 @@ h6 {
       touch-action: none;
 }
 
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.15);
+  background-color: #ffb64800;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  background: rgba(255, 255, 255, 0.904);
+}
+
+body::-webkit-scrollbar-thumb {
+  border: none;
+  border-radius: 25px;
+  background: rgba(26, 190, 132, 0.9);
+}
+
 .wrapper {
   min-height: 100%;
   display: -webkit-box;
@@ -397,9 +414,9 @@ h6 {
 
 .finder-form__input-expand:hover {
   color: #fb8f1d;
-  -webkit-transition: color 0.2s ease-in;
-  -o-transition: color 0.2s ease-in;
-  transition: color 0.2s ease-in;
+  -webkit-transition: color 0.15s ease-in;
+  -o-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in;
 }
 
 .finder-form__input {
@@ -446,9 +463,9 @@ h6 {
   border: 1px solid #fb8f1d;
   -webkit-box-shadow: 0 0 5px 0 #fb8f1d;
           box-shadow: 0 0 5px 0 #fb8f1d;
-  -webkit-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
 }
 
 .finder-form__btn {
@@ -619,11 +636,11 @@ h6 {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: -webkit-transform 0.2s ease-in;
-  transition: -webkit-transform 0.2s ease-in;
-  -o-transition: transform 0.2s ease-in;
-  transition: transform 0.2s ease-in;
-  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.15s ease-in;
+  transition: -webkit-transform 0.15s ease-in;
+  -o-transition: transform 0.15s ease-in;
+  transition: transform 0.15s ease-in;
+  transition: transform 0.15s ease-in, -webkit-transform 0.15s ease-in;
 }
 
 .header {
@@ -698,9 +715,9 @@ h6 {
 
 .header__menu-list-link:hover {
   color: #202336;
-  -webkit-transition: color 0.2s ease-in;
-  -o-transition: color 0.2s ease-in;
-  transition: color 0.2s ease-in;
+  -webkit-transition: color 0.15s ease-in;
+  -o-transition: color 0.15s ease-in;
+  transition: color 0.15s ease-in;
 }
 
 .header__menu-auth {
@@ -729,9 +746,9 @@ h6 {
   line-height: 120%;
   border-radius: 8px;
   padding: 10px;
-  -webkit-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
   overflow: hidden;
 }
 
@@ -1002,11 +1019,11 @@ h6 {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: -webkit-transform 0.2s ease-in;
-  transition: -webkit-transform 0.2s ease-in;
-  -o-transition: transform 0.2s ease-in;
-  transition: transform 0.2s ease-in;
-  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.15s ease-in;
+  transition: -webkit-transform 0.15s ease-in;
+  -o-transition: transform 0.15s ease-in;
+  transition: transform 0.15s ease-in;
+  transition: transform 0.15s ease-in, -webkit-transform 0.15s ease-in;
 }
 
 .destinations__gallery {
@@ -1040,9 +1057,9 @@ h6 {
 }
 
 .destinations__gallery-link {
-  -webkit-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
 }
 
 .destinations__gallery-link:hover {
@@ -1191,9 +1208,9 @@ h6 {
 .testimonials__swiper-btn-next:hover {
   color: white;
   background-color: black;
-  -webkit-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
 }
 
 .testimonials__swiper-btn--disabled {
@@ -1257,11 +1274,11 @@ h6 {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: -webkit-transform 0.2s ease-in;
-  transition: -webkit-transform 0.2s ease-in;
-  -o-transition: transform 0.2s ease-in;
-  transition: transform 0.2s ease-in;
-  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.15s ease-in;
+  transition: -webkit-transform 0.15s ease-in;
+  -o-transition: transform 0.15s ease-in;
+  transition: transform 0.15s ease-in;
+  transition: transform 0.15s ease-in, -webkit-transform 0.15s ease-in;
 }
 
 .stories__content {
@@ -1400,11 +1417,11 @@ h6 {
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: -webkit-transform 0.2s ease-in;
-  transition: -webkit-transform 0.2s ease-in;
-  -o-transition: transform 0.2s ease-in;
-  transition: transform 0.2s ease-in;
-  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.15s ease-in;
+  transition: -webkit-transform 0.15s ease-in;
+  -o-transition: transform 0.15s ease-in;
+  transition: transform 0.15s ease-in;
+  transition: transform 0.15s ease-in, -webkit-transform 0.15s ease-in;
 }
 
 .swiper {
