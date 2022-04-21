@@ -678,14 +678,6 @@ body::-webkit-scrollbar-thumb {
   gap: 34px;
 }
 
-.header__menu--active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
 .header__menu-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2448,6 +2440,14 @@ button.swiper-pagination-bullet {
             flex-direction: column;
     gap: 60px;
     margin: 100px 0 0 0;
+  }
+
+  .header__menu--active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   }
 
   .header__menu-list {
