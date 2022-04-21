@@ -45,9 +45,11 @@
     }
 
     &--active {
-      display: flex;
-      animation: slide-in-elliptic-top-fwd 0.7s
+      @include maxMobile {
+        display: flex;
+        animation: slide-in-elliptic-top-fwd 0.7s
         cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      }
     }
   }
 
@@ -141,7 +143,7 @@
   }
 
   &__icon-menu {
-	  justify-self: end;
+    justify-self: end;
   }
 }
 
@@ -165,7 +167,7 @@
   span,
   &::before,
   &::after {
-    content: "";
+    content: '';
     transition: all 0.3s ease 0s;
     right: 0;
     position: absolute;
