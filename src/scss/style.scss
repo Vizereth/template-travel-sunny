@@ -13,6 +13,12 @@
 // Подключить если есть файл иконочного шрифта
 //@import "fonts/icons";
 
+// Connect fontawesome
+@import "fonts/fonts";
+@import "fonts/fontawesome/fontawesome";
+@import "fonts/fontawesome/solid";
+@import "fonts/fontawesome/brands";
+
 @include font("Inter", "Inter-Bold", 700, normal);
 @include font("Inter", "Inter-Medium", 500, normal);
 @include font("Inter", "Inter-Regular", 400, normal);
