@@ -10514,6 +10514,7 @@ body {
 input,
 button,
 textarea {
+  background: transparent;
   font-family: "Inter", sans-serif;
   font-size: inherit;
 }
@@ -10553,6 +10554,10 @@ h5,
 h6 {
   font-weight: inherit;
   font-size: inherit;
+}
+
+body {
+  background: white;
 }
 
 .lock body {
