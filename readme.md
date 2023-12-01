@@ -1,4 +1,4 @@
-### HTML Template - Sunny
+# HTML Template - Sunny
 
 ## Deploy
 
