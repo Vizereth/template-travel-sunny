@@ -2,7 +2,7 @@
 
 ## Deploy
 
-https://sophrona.github.io/V-Sunny
+https://vizereth.github.io/V-Sunny
 
 ## Project setup
 ```
