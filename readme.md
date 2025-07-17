@@ -1,4 +1,4 @@
-# HTML Template - Sunny
+# Landing Page - Sunny
 
 ## Deploy
 
