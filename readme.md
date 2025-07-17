@@ -2,7 +2,7 @@
 
 ## Deploy
 
-https://vizereth.github.io/V-Sunny
+https://vizereth.github.io/template-travel-sunny
 
 ## Project setup
 ```
